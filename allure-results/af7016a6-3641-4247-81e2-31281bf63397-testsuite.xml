@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666971838597' stop='1666971838660'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666971838598' status='passed' stop='1666971838631'>
+            <name>should detect if the footer is visible</name>
+            <title>should detect if the footer is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the footer is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666971838631' status='passed' stop='1666971838658'>
+            <name>should detect if the LinkedIn link is clickable</name>
+            <title>should detect if the LinkedIn link is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the LinkedIn link is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

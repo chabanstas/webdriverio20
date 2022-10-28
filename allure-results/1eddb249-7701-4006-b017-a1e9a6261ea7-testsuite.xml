@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666952489002' stop='1666952489005'>
+    <name>Telnyx Login page test</name>
+    <title>Telnyx Login page test</title>
+    <test-cases>
+        <test-case start='1666952489003' status='pending' stop='1666952489003'>
+            <name>Checks if login page has a specific title.</name>
+            <title>Checks if login page has a specific title.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666952489003' status='pending' stop='1666952489003'>
+            <name>Checks if login page is on a specific page.</name>
+            <title>Checks if login page is on a specific page.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

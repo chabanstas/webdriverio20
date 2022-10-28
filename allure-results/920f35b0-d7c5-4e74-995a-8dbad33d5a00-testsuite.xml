@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666771512413' stop='1666771551174'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1666771512414' status='failed' stop='1666771551173'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-106.0.1370.52'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`#flash`) to have text containing
+                
+                - Expected  - 1
+                + Received  + 2
+                
+                - You logged into a secure area!
+                + Your username is invalid!
+                + ×</message>
+                <stack-trace>Error: Expect $(`#flash`) to have text containing
+                
+                - Expected  - 1
+                + Received  + 2
+                
+                - You logged into a secure area!
+                + Your username is invalid!
+                + ×
+                    at Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\example.e2e.js:12:45)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

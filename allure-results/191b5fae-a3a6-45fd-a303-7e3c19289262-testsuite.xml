@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666958073453' stop='1666958073925'>
+    <name>Telnyx Login page test</name>
+    <title>Telnyx Login page test</title>
+    <test-cases>
+        <test-case start='1666958073454' status='passed' stop='1666958073479'>
+            <name>Checks if login page has a specific title.</name>
+            <title>Checks if login page has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if login page has a specific title.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666958073480' status='passed' stop='1666958073492'>
+            <name>Checks if login page is on a specific page.</name>
+            <title>Checks if login page is on a specific page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if login page is on a specific page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666958073492' status='broken' stop='1666958073924'>
+            <name>Checks if the "Telnyx" logo button refreshes the page.</name>
+            <title>Checks if the "Telnyx" logo button refreshes the page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a4ad90b0-c35b-4c6b-87ae-d2a30a821af8-attachment.png' type='image/png' size='75499'/>
+            </attachments>
+            <failure>
+                <message>assert is not defined</message>
+                <stack-trace>ReferenceError: assert is not defined
+                    at LoginPage.checkEmailValue (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\login.page.js:45:9)
+                    at Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\login.js:33:25)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

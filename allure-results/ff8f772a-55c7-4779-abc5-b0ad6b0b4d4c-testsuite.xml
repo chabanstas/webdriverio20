@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666966436110' stop='1666966436880'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666966436111' status='passed' stop='1666966436179'>
+            <name>should detect if the menu section is visible</name>
+            <title>should detect if the menu section is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the menu section is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436180' status='passed' stop='1666966436679'>
+            <name>should detect if the Elastic SIP Trunking section is displayed</name>
+            <title>should detect if the Elastic SIP Trunking section is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Elastic SIP Trunking section is displayed'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436679' status='passed' stop='1666966436711'>
+            <name>should detect if the talk to expert button is clickable</name>
+            <title>should detect if the talk to expert button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the talk to expert button is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436711' status='passed' stop='1666966436744'>
+            <name>should detect if the Sign up button is clickable</name>
+            <title>should detect if the Sign up button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Sign up button is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436744' status='passed' stop='1666966436784'>
+            <name>should detect if the Call Us buttom is visible</name>
+            <title>should detect if the Call Us buttom is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Call Us buttom is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436785' status='passed' stop='1666966436824'>
+            <name>should detect if the Support Center link is visible</name>
+            <title>should detect if the Support Center link is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Support Center link is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436824' status='passed' stop='1666966436855'>
+            <name>should detect if the Log In link is visible</name>
+            <title>should detect if the Log In link is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Log In link is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966436855' status='passed' stop='1666966436879'>
+            <name>should detect if the Products section is clickable</name>
+            <title>should detect if the Products section is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Products section is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666973007638' stop='1666973007826'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666973007639' status='passed' stop='1666973007673'>
+            <name>should detect if the footer is visible</name>
+            <title>should detect if the footer is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the footer is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666973007673' status='passed' stop='1666973007706'>
+            <name>should detect if the LinkedIn link is clickable</name>
+            <title>should detect if the LinkedIn link is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the LinkedIn link is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666973007706' status='passed' stop='1666973007769'>
+            <name>should detect if the Twitter link is clickable</name>
+            <title>should detect if the Twitter link is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Twitter link is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666973007769' status='passed' stop='1666973007799'>
+            <name>should detect if the Facebook link is clickable</name>
+            <title>should detect if the Facebook link is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Facebook link is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666973007800' status='passed' stop='1666973007825'>
+            <name>should detect if the header menu is visible</name>
+            <title>should detect if the header menu is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the header menu is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

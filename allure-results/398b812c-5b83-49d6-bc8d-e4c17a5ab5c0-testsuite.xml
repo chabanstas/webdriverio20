@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666973207747' stop='1666973211618'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666973207748' status='passed' stop='1666973207868'>
+            <name>Checks if main page has a specific title.</name>
+            <title>Checks if main page has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='feature' value='Checks if main page has a specific title.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666973207869' status='passed' stop='1666973208043'>
+            <name>Checks if main page is on a specific page.</name>
+            <title>Checks if main page is on a specific page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='feature' value='Checks if main page is on a specific page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666973208045' status='passed' stop='1666973211618'>
+            <name>Checks if "Telnyx" logo button returns to the main page.</name>
+            <title>Checks if "Telnyx" logo button returns to the main page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='feature' value='Checks if "Telnyx" logo button returns to the main page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

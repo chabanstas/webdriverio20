@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666994875878' stop='1666994879768'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666994875878' status='passed' stop='1666994875928'>
+            <name>Checks if main page has a specific title.</name>
+            <title>Checks if main page has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+                <label name='feature' value='Checks if main page has a specific title.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-107.0.1418.24'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666994875929' status='passed' stop='1666994875973'>
+            <name>Checks if main page is on a specific page.</name>
+            <title>Checks if main page is on a specific page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+                <label name='feature' value='Checks if main page is on a specific page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-107.0.1418.24'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666994875974' status='passed' stop='1666994879767'>
+            <name>Checks if "Telnyx" logo button returns to the main page.</name>
+            <title>Checks if "Telnyx" logo button returns to the main page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='2-3'/>
+                <label name='feature' value='Checks if "Telnyx" logo button returns to the main page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Edge-107.0.1418.24'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

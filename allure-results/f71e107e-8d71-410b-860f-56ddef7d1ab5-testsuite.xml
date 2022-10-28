@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666952589125' stop='1666952609882'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666952589126' status='passed' stop='1666952589174'>
+            <name>Checks if main page has a specific title.</name>
+            <title>Checks if main page has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Checks if main page has a specific title.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666952589174' status='passed' stop='1666952589189'>
+            <name>Checks if main page is on a specific page.</name>
+            <title>Checks if main page is on a specific page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Checks if main page is on a specific page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666952589189' status='failed' stop='1666952609881'>
+            <name>Checks if "Telnyx" logo botton returns to the main page.</name>
+            <title>Checks if "Telnyx" logo botton returns to the main page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c3fac852-a1e1-4b86-8adf-d29398b07c02-attachment.png' type='image/png' size='446690'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "https://telnyx.com/solutions/global-ip-network"
+                Received: "https://telnyx.com/"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "https://telnyx.com/solutions/global-ip-network"
+                Received: "https://telnyx.com/"
+                    at MainPage.getUrl (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\page.js:20:31)
+                    at Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.js:32:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

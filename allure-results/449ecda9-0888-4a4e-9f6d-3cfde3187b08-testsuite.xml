@@ -1,0 +1,214 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666994853003' stop='1666994857400'>
+    <name>Telnyx header test</name>
+    <title>Telnyx header test</title>
+    <test-cases>
+        <test-case start='1666994853004' status='failed' stop='1666994853944'>
+            <name>should detect if the menu section is visible</name>
+            <title>should detect if the menu section is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2f9d76ac-1ece-46e4-9ae7-968b11158c46-attachment.png' type='image/png' size='367049'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at MainHeaderPage.MSisDispInViewport (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:48:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666994853945' status='failed' stop='1666994854846'>
+            <name>should detect if the Elastic SIP Trunking section is displayed</name>
+            <title>should detect if the Elastic SIP Trunking section is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='640a9a33-bb9d-4c4c-9e2b-ba2144c48f8f-attachment.png' type='image/png' size='370934'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at MainHeaderPage.elem1FromOpenMSisDisplayed (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:52:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:21:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666994854847' status='failed' stop='1666994855357'>
+            <name>should detect if the talk to expert button is clickable</name>
+            <title>should detect if the talk to expert button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f51f6548-146f-4991-a7ee-47e6736cb97f-attachment.png' type='image/png' size='370950'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at MainHeaderPage.TalkToExpertIsClickable (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:60:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:28:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666994855357' status='failed' stop='1666994855936'>
+            <name>should detect if the Sign up button is clickable</name>
+            <title>should detect if the Sign up button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cef2bc6f-32a8-407d-a0f8-55c7b697b1a8-attachment.png' type='image/png' size='370953'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at MainHeaderPage.SignUpIsClickable (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:64:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:34:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666994855937' status='passed' stop='1666994856032'>
+            <name>should detect if the Call Us buttom is visible</name>
+            <title>should detect if the Call Us buttom is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+                <label name='feature' value='should detect if the Call Us buttom is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666994856033' status='failed' stop='1666994856558'>
+            <name>should detect if the Support Center link is visible</name>
+            <title>should detect if the Support Center link is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='85643cfe-7e17-45dd-b8e6-7514cfcba20c-attachment.png' type='image/png' size='370952'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at MainHeaderPage.SupportCenterIsDispInViewport (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:72:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:46:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666994856559' status='failed' stop='1666994857022'>
+            <name>should detect if the Log In link is visible</name>
+            <title>should detect if the Log In link is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f42f30bc-8776-48ce-8e36-4bcdb3afa027-attachment.png' type='image/png' size='364291'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at MainHeaderPage.LogInIsDispInViewport (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:76:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:52:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666994857023' status='passed' stop='1666994857261'>
+            <name>should detect the focus of the Products section</name>
+            <title>should detect the focus of the Products section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+                <label name='feature' value='should detect the focus of the Products section'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666994857261' status='passed' stop='1666994857399'>
+            <name>should detect the focus of the Network section</name>
+            <title>should detect the focus of the Network section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+                <label name='feature' value='should detect the focus of the Network section'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

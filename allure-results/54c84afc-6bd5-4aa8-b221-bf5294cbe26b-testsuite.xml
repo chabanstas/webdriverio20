@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666966926761' stop='1666966928958'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666966926763' status='passed' stop='1666966927153'>
+            <name>should detect if the menu section is visible</name>
+            <title>should detect if the menu section is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the menu section is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966927154' status='failed' stop='1666966928174'>
+            <name>should detect if the Elastic SIP Trunking section is displayed</name>
+            <title>should detect if the Elastic SIP Trunking section is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a315a764-f731-412d-80ad-e2317ef7742b-attachment.png' type='image/png' size='395666'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at LoginPage.elem1FromOpenMSisDisplayed (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:53:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:21:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666966928181' status='passed' stop='1666966928210'>
+            <name>should detect if the talk to expert button is clickable</name>
+            <title>should detect if the talk to expert button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the talk to expert button is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966928210' status='passed' stop='1666966928233'>
+            <name>should detect if the Sign up button is clickable</name>
+            <title>should detect if the Sign up button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Sign up button is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966928234' status='passed' stop='1666966928327'>
+            <name>should detect if the Call Us buttom is visible</name>
+            <title>should detect if the Call Us buttom is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Call Us buttom is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966928328' status='passed' stop='1666966928357'>
+            <name>should detect if the Support Center link is visible</name>
+            <title>should detect if the Support Center link is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Support Center link is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966928357' status='passed' stop='1666966928378'>
+            <name>should detect if the Log In link is visible</name>
+            <title>should detect if the Log In link is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Log In link is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666966928378' status='failed' stop='1666966928955'>
+            <name>should detect the focus of the Products section</name>
+            <title>should detect the focus of the Products section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='798b5853-6b1c-4b07-a57e-4d41d0307e5c-attachment.png' type='image/png' size='395666'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at LoginPage.ProductsMSIsFocused (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:88:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:58:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

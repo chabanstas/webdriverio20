@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666963808305' stop='1666963809754'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666963808306' status='passed' stop='1666963808673'>
+            <name>should detect if the menu section is visible</name>
+            <title>should detect if the menu section is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the menu section is visible'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666963808674' status='passed' stop='1666963809099'>
+            <name>should detect if the Elastic SIP Trunking section is displayed</name>
+            <title>should detect if the Elastic SIP Trunking section is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the Elastic SIP Trunking section is displayed'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666963809100' status='passed' stop='1666963809145'>
+            <name>should detect if the talk to expert button is clickable</name>
+            <title>should detect if the talk to expert button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='should detect if the talk to expert button is clickable'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666963809146' status='failed' stop='1666963809750'>
+            <name>should detect if the Sign up button is clickable</name>
+            <title>should detect if the Sign up button is clickable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='abb71441-29c6-48c5-a925-e03a6c7b7b0e-attachment.png' type='image/png' size='395665'/>
+            </attachments>
+            <failure>
+                <message>false == true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: false == true
+                    at LoginPage.SignUpIsClickable (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\main.header.page.js:57:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\main.header.js:34:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

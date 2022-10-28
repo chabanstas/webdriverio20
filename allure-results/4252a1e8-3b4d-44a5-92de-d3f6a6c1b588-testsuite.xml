@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666958315180' stop='1666958315743'>
+    <name>Telnyx Login page test</name>
+    <title>Telnyx Login page test</title>
+    <test-cases>
+        <test-case start='1666958315181' status='passed' stop='1666958315201'>
+            <name>Checks if login page has a specific title.</name>
+            <title>Checks if login page has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if login page has a specific title.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666958315201' status='passed' stop='1666958315214'>
+            <name>Checks if login page is on a specific page.</name>
+            <title>Checks if login page is on a specific page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if login page is on a specific page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666958315214' status='failed' stop='1666958315740'>
+            <name>Checks if the "Telnyx" logo button refreshes the page.</name>
+            <title>Checks if the "Telnyx" logo button refreshes the page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='26aea192-9d84-48bb-9983-1d7e4a93f9c4-attachment.png' type='image/png' size='75499'/>
+            </attachments>
+            <failure>
+                <message>Expected "actual" to be strictly unequal to:
+                
+                'test123'      
+                      actual expected
+                      
+                      'test123'
+                      </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Expected "actual" to be strictly unequal to:
+                
+                'test123'
+                    at LoginPage.checkEmailValue (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\pageobjects\login.page.js:45:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\login.js:33:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

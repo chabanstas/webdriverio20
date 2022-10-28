@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666935763555' stop='1666935770175'>
+    <name>Telnyx main page test</name>
+    <title>Telnyx main page test</title>
+    <test-cases>
+        <test-case start='1666935763555' status='pending' stop='1666935763556'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666935763557' status='broken' stop='1666935770170'>
+            <name>Checks if website has a specific title.</name>
+            <title>Checks if website has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-107.0.0.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f54c00e9-d40b-47cb-a49e-bad8c407fcf3-attachment.png' type='image/png' size='71118'/>
+            </attachments>
+            <failure>
+                <message>browser.getTitle(...).isTitleDistpayed is not a function</message>
+                <stack-trace>TypeError: browser.getTitle(...).isTitleDistpayed is not a function
+                    at Context.&lt;anonymous> (C:\Data Development\Work\Luxe Quality\Projects\20testswebdriverio\webdriverio20\test\specs\login.js:21:41)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

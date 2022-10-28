@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666994842008' stop='1666994843405'>
+    <name>Telnyx Login page test</name>
+    <title>Telnyx Login page test</title>
+    <test-cases>
+        <test-case start='1666994842009' status='passed' stop='1666994842200'>
+            <name>Checks if login page has a specific title.</name>
+            <title>Checks if login page has a specific title.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if login page has a specific title.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666994842200' status='passed' stop='1666994842318'>
+            <name>Checks if login page is on a specific page.</name>
+            <title>Checks if login page is on a specific page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if login page is on a specific page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666994842319' status='passed' stop='1666994843404'>
+            <name>Checks if the "Telnyx" logo button refreshes the page.</name>
+            <title>Checks if the "Telnyx" logo button refreshes the page.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Checks if the "Telnyx" logo button refreshes the page.'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome Headless-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
