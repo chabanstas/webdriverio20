@@ -20,3 +20,5 @@
 1. Perform the commands in the Bash.
 2. Install Newman `npm run wdio` (If you have Node.js installed, it is most likely that you have NPM installed as well)
 3. To create and start allure report use `allure generate --clean`, then `allure open`
+
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
