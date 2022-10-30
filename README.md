@@ -24,3 +24,6 @@
 
 ## Allure result
 ![Image alt](https://github.com/chabanstas/webdriverio20/blob/main/Screenshot_2.png)
+
+## My page
+https://chabanstas.github.io/webdriverio20/
