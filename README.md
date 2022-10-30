@@ -21,4 +21,4 @@
 2. Install Newman `npm run wdio` (If you have Node.js installed, it is most likely that you have NPM installed as well)
 3. To create and start allure report use `allure generate --clean`, then `allure open`
 
-![Image alt](https://github.com/chabanstas/webdriverio20/main/Screenshot_2.png
+![Image alt](https://github.com/chabanstas/webdriverio20/blob/main/Screenshot_2.png)
